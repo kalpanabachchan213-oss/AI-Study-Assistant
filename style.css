@@ -125,12 +125,25 @@ footer{
     border-radius:15px;
 .logo{
     width:70px;
-    height:auto;
 }
 
 .hero-img{
     width:100%;
     max-width:500px;
     border-radius:15px;
+}
+
+.student-img,
+.brain-img,
+.talking-img,
+.happy-img,
+.computer-img,
+.clock-img,
+.graph-img,
+.background-img{
+    width:250px;
+    border-radius:15px;
+    margin:10px;
+}
 }
 }
