@@ -1,149 +1,123 @@
-
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial,sans-serif;
+    font-family:Arial, sans-serif;
 }
 
 body{
-    background:#f4f9ff;
-    color:#333;
+    background:#f5f8ff;
+    color:#222;
 }
 
+/* Header */
 header{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:20px 50px;
-    background:#0f172a;
+    padding:20px;
+    background:#ffffff;
 }
 
-.logo h2{
-    color:#fff;
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
 }
 
 nav a{
-    color:white;
     text-decoration:none;
-    margin-left:20px;
-    font-size:18px;
+    margin:10px;
+    color:#333;
 }
 
-nav a:hover{
-    color:#38bdf8;
-}
-
+/* Hero */
 .hero{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items:center;
-    padding:60px;
-    flex-wrap:wrap;
+    padding:40px;
 }
 
 .hero-text{
-    width:50%;
+    width:45%;
 }
 
 .hero-text h1{
-    font-size:45px;
-    color:#0f172a;
-    margin-bottom:20px;
+    font-size:40px;
 }
 
 .hero-text p{
-    font-size:18px;
-    margin-bottom:25px;
-    line-height:1.6;
+    margin:20px 0;
 }
 
 button{
-    background:#2563eb;
-    color:white;
+    padding:10px 20px;
     border:none;
-    padding:15px 30px;
     border-radius:8px;
     cursor:pointer;
-    font-size:18px;
-}
-
-button:hover{
-    background:#1d4ed8;
 }
 
 .hero-image img{
-    width:450px;
-    max-width:100%;
+    width:350px;
 }
 
-.features{
+/* Sections */
+section{
+    padding:40px;
     text-align:center;
-    padding:60px 20px;
 }
 
-.features h2{
-    font-size:35px;
-    margin-bottom:40px;
+section h2{
+    margin-bottom:20px;
 }
 
-.card{
-    background:white;
-    width:280px;
-    display:inline-block;
+/* Images */
+.about-image img,
+.feature-image img,
+.calendar-box img,
+.video-box img,
+.graph-box img,
+.ai-box img{
+    width:250px;
     margin:15px;
-    padding:25px;
     border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.15);
 }
 
-.card h3{
-    color:#2563eb;
-    margin-bottom:15px;
+/* Cards */
+.card,
+.feature-box,
+.calendar-box,
+.video-box,
+.graph-box,
+.ai-box{
+    background:white;
+    padding:20px;
+    margin:20px;
+    border-radius:15px;
 }
 
-.card:hover{
-    transform:translateY(-10px);
-    transition:0.3s;
+/* Contact */
+input, textarea{
+    width:80%;
+    padding:12px;
+    margin:10px;
 }
 
+textarea{
+    height:100px;
+}
+
+/* Footer */
 footer{
-    background:#0f172a;
+    background:#222;
     color:white;
     text-align:center;
     padding:20px;
-    margin-top:50px;
-
-}.logo{
-    width:70px;
-    height:auto;
-}
-
-.hero-img{
-    width:100%;
-    max-width:500px;
-    border-radius:15px;
-.logo{
-    width:70px;
-}
-
-.hero-img{
-    width:100%;
-    max-width:500px;
-    border-radius:15px;
-}
-
-.student-img,
-.brain-img,
-.talking-img,
-.happy-img,
-.computer-img,
-.clock-img,
-.graph-img,
-.background-img{
-    width:250px;
-    border-radius:15px;
-    margin:10px;
-}
-}
 }
