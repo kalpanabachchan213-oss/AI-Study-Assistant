@@ -1,123 +1,50 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, sans-serif;
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-    background:#f5f8ff;
-    color:#222;
+header {
+    padding: 20px;
 }
 
-/* Header */
-header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px;
-    background:#ffffff;
+header img {
+    width: 100px;
+    border-radius: 50%;
 }
 
-.logo{
-    display:flex;
-    align-items:center;
-    gap:10px;
+h1 {
+    font-size: 35px;
 }
 
-.logo img{
-    width:60px;
-    height:60px;
-    border-radius:50%;
+nav {
+    padding: 15px;
 }
 
-nav a{
-    text-decoration:none;
-    margin:10px;
-    color:#333;
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
 }
 
-/* Hero */
-.hero{
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    padding:40px;
+section {
+    padding: 20px;
 }
 
-.hero-text{
-    width:45%;
+section img {
+    width: 150px;
+    margin: 10px;
+    border-radius: 10px;
 }
 
-.hero-text h1{
-    font-size:40px;
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
 }
 
-.hero-text p{
-    margin:20px 0;
-}
-
-button{
-    padding:10px 20px;
-    border:none;
-    border-radius:8px;
-    cursor:pointer;
-}
-
-.hero-image img{
-    width:350px;
-}
-
-/* Sections */
-section{
-    padding:40px;
-    text-align:center;
-}
-
-section h2{
-    margin-bottom:20px;
-}
-
-/* Images */
-.about-image img,
-.feature-image img,
-.calendar-box img,
-.video-box img,
-.graph-box img,
-.ai-box img{
-    width:250px;
-    margin:15px;
-    border-radius:15px;
-}
-
-/* Cards */
-.card,
-.feature-box,
-.calendar-box,
-.video-box,
-.graph-box,
-.ai-box{
-    background:white;
-    padding:20px;
-    margin:20px;
-    border-radius:15px;
-}
-
-/* Contact */
-input, textarea{
-    width:80%;
-    padding:12px;
-    margin:10px;
-}
-
-textarea{
-    height:100px;
-}
-
-/* Footer */
-footer{
-    background:#222;
-    color:white;
-    text-align:center;
-    padding:20px;
+footer {
+    padding: 20px;
 }
