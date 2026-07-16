@@ -113,4 +113,24 @@ footer{
     text-align:center;
     padding:20px;
     margin-top:50px;
+
+}.logo{
+    width:70px;
+    height:auto;
+}
+
+.hero-img{
+    width:100%;
+    max-width:500px;
+    border-radius:15px;
+.logo{
+    width:70px;
+    height:auto;
+}
+
+.hero-img{
+    width:100%;
+    max-width:500px;
+    border-radius:15px;
+}
 }
